@@ -1,180 +1,610 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Andre Vallestero</title>
-<link rel="stylesheet" href="style.css">
-<script src="app.js" defer></script>
-</head>
-<body>
-<main>
-<section class="card profile">
-<img class="banner" src="assets/header.png" alt="Desktop banner">
-<img class="avatar" src="assets/pfp.jpg" alt="Andre Vallestero">
-<h1>Andre Vallestero</h1>
-<p class="bio">Software developer with deep interests in open-source, rust, low-level programming, and linguistics</p>
-<p class="meta">
-<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 0a5.5 5.5 0 0 0-5.5 5.5c0 4.1 5.5 10.5 5.5 10.5s5.5-6.4 5.5-10.5A5.5 5.5 0 0 0 8 0Zm0 7.5A2 2 0 1 1 8 3.5a2 2 0 0 1 0 4Z"/></svg>
-Toronto, Canada
-<a href="https://github.com/AndreVallestero"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27 7.6 7.6 0 0 1 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>AndreVallestero</a>
-<a href="https://www.linkedin.com/in/andre-vallestero"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>andre-vallestero</a>
-</p>
-</section>
-<section class="card">
-<h2>Web Projects (try them out!)</h2>
-<div class="carousel">
-<div class="viewport">
-<div class="grid" id="web-grid">
-<article class="web-card">
-<a href="https://andrevallestero.github.io/gui-toolkit-benchmarks/"><img src="assets/gui-toolkit-benchmark.png" alt="GUI Toolkit Benchmarks screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/gui-toolkit-benchmarks">GUI Toolkit Benchmarks</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"><img src="https://img.shields.io/github/stars/AndreVallestero/gui-toolkit-benchmarks" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"><img src="https://img.shields.io/github/forks/AndreVallestero/gui-toolkit-benchmarks" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://andrevallestero.github.io/hatch-pattern-editor/editor"><img src="assets/hatch-pattern-editor.png" alt="Hatch Pattern Editor screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/hatch-pattern-editor">Hatch Pattern Editor</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/hatch-pattern-editor"><img src="https://img.shields.io/github/stars/AndreVallestero/hatch-pattern-editor" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/hatch-pattern-editor"><img src="https://img.shields.io/github/forks/AndreVallestero/hatch-pattern-editor" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://www.conlang0.org"><img src="assets/conlang0.png" alt="Conlang0 screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/conlang0">Conlang0</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/conlang0"><img src="https://img.shields.io/github/stars/AndreVallestero/conlang0" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/conlang0"><img src="https://img.shields.io/github/forks/AndreVallestero/conlang0" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://andrevallestero.github.io/knucklebones-solver/"><img src="assets/kuncklebones_solver.png" alt="Knucklebones Solver screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/knucklebones-solver">Knucklebones Solver</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/knucklebones-solver"><img src="https://img.shields.io/github/stars/AndreVallestero/knucklebones-solver" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/knucklebones-solver"><img src="https://img.shields.io/github/forks/AndreVallestero/knucklebones-solver" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://andrevallestero.github.io/lineageos-device-browser/"><img src="assets/lineage-os-device-browser.png" alt="LineageOS Device Browser screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/lineageos-device-browser">LineageOS Device Browser</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/lineageos-device-browser"><img src="https://img.shields.io/github/stars/AndreVallestero/lineageos-device-browser" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/lineageos-device-browser"><img src="https://img.shields.io/github/forks/AndreVallestero/lineageos-device-browser" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://andrevallestero.github.io/3d-fruit-game/"><img src="assets/3d-fruit-game.png" alt="3D Fruit Game screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/3d-fruit-game">3D Fruit Game</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/3d-fruit-game"><img src="https://img.shields.io/github/stars/AndreVallestero/3d-fruit-game" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/3d-fruit-game"><img src="https://img.shields.io/github/forks/AndreVallestero/3d-fruit-game" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://andrevallestero.github.io/shadow.bad.mn"><img src="assets/shadow_badminton.png" alt="Shadow Badminton screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/shadow.bad.mn">Shadow Badminton</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/shadow.bad.mn"><img src="https://img.shields.io/github/stars/AndreVallestero/shadow.bad.mn" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/shadow.bad.mn"><img src="https://img.shields.io/github/forks/AndreVallestero/shadow.bad.mn" alt="Forks" loading="lazy"></a></p>
-</article>
-<article class="web-card">
-<a href="https://andrevallestero.github.io/ror2-eh-calc/"><img src="assets/ror2_eh_calc.png" alt="RoR2 EH Calc screenshot" loading="lazy"></a>
-<h3><a href="https://github.com/AndreVallestero/ror2-eh-calc">RoR2 EH Calc</a></h3>
-<p class="badges"><a href="https://github.com/AndreVallestero/ror2-eh-calc"><img src="https://img.shields.io/github/stars/AndreVallestero/ror2-eh-calc" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/ror2-eh-calc"><img src="https://img.shields.io/github/forks/AndreVallestero/ror2-eh-calc" alt="Forks" loading="lazy"></a></p>
-</article>
-</div>
-</div>
-<button id="prev" hidden aria-label="Previous projects"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M10.5 3.5 5 8l5.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-<button id="next" aria-label="Next projects"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M5.5 3.5 11 8l-5.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-</div>
-</section>
-<section class="card">
-<h2>Experience</h2>
-<ul class="exp-list">
-<li>
-<img class="logo" src="assets/robinhood.png" alt="Robinhood" width="40" height="40">
-<h3>Software Engineer</h3>
-<p class="company">Robinhood &middot; Permanent Full-time</p>
-<p class="dates">Feb 2025 - Present &middot; 1 yr 8 mos</p>
-<p class="loc">Toronto, Ontario, Canada &middot; Hybrid</p>
-<p class="desc">Backend engineering for futures and event contracts</p>
-<p class="skills">&#x2662; Go (Programming Language), Python and +3 skills</p>
-</li>
-<li>
-<img class="logo" src="assets/amazon.svg" alt="Amazon" width="40" height="40">
-<h3>Amazon</h3>
-<p class="company">Permanent Full-time &middot; 2 yrs 9 mos</p>
-<p class="loc">Toronto, Ontario, Canada &middot; Hybrid</p>
-<ul class="sub">
-<li>
-<h4>Software Development Engineer II</h4>
-<p class="dates">Mar 2024 - Sep 2024 &middot; 7 mos</p>
-</li>
-<li>
-<h4>Software Development Engineer</h4>
-<p class="dates">Jan 2022 - Feb 2024 &middot; 2 yrs 2 mos</p>
-<p class="desc">Content access and protection development</p>
-<p class="skills">&#x2662; Kotlin, Java and +3 skills</p>
-</li>
-</ul>
-</li>
-<li>
-<img class="logo" src="assets/koii.png" alt="Koii.network" width="40" height="40">
-<h3>Koii.network</h3>
-<p class="company">Contract Full-time &middot; 10 mos</p>
-<p class="loc">Greater Toronto Area, Canada</p>
-<ul class="sub">
-<li>
-<h4>Lead Backend Developer</h4>
-<p class="dates">Aug 2021 - Jan 2022 &middot; 6 mos</p>
-</li>
-<li>
-<h4>Software Developer</h4>
-<p class="dates">Apr 2021 - Aug 2021 &middot; 5 mos</p>
-<p class="desc">Decentralized computing and application development</p>
-<p class="skills">&#x2662; JavaScript, Amazon Web Services (AWS) and +4 skills</p>
-</li>
-</ul>
-</li>
-<li>
-<img class="logo" src="assets/tyltgo.png" alt="TyltGO" width="40" height="40">
-<h3>Full-stack Developer</h3>
-<p class="company">TyltGO (YC S20) &middot; Internship</p>
-<p class="dates">Apr 2020 - Sep 2020 &middot; 6 mos</p>
-<p class="loc">Greater Toronto Area, Canada</p>
-<p class="desc">Full-stack web development</p>
-<p class="skills">&#x2662; TypeScript, Angular and +1 skill</p>
-</li>
-<li>
-<img class="logo" src="assets/think-logistics.png" alt="Think Logistics" width="40" height="40">
-<h3>Software Developer</h3>
-<p class="company">Think Logistics &middot; Internship</p>
-<p class="dates">Apr 2018 - Sep 2018 &middot; 6 mos</p>
-<p class="loc">Vaughan, Ontario, Canada</p>
-<p class="desc">Desktop application development</p>
-<p class="skills">&#x2662; WinForms, .NET Framework and +1 skill</p>
-</li>
-</ul>
-</section>
-<section class="card">
-<h2>Top Projects</h2>
-<ul class="top-list">
-<li>
-<a class="top-title" href="https://github.com/AndreVallestero/instant-pi">Instant Pi</a>
-<span class="top-badges"><a href="https://github.com/AndreVallestero/instant-pi"><img src="https://img.shields.io/github/stars/AndreVallestero/instant-pi" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/instant-pi"><img src="https://img.shields.io/github/forks/AndreVallestero/instant-pi" alt="Forks" loading="lazy"></a></span>
-<p class="top-desc">Achieving the fastest possible boot times with various Raspberry Pi devices</p>
-</li>
-<li>
-<a class="top-title" href="https://github.com/AndreVallestero/sdl-vulkan-tutorial">SDL Vulkan Tutorial</a>
-<span class="top-badges"><a href="https://github.com/AndreVallestero/sdl-vulkan-tutorial"><img src="https://img.shields.io/github/stars/AndreVallestero/sdl-vulkan-tutorial" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/sdl-vulkan-tutorial"><img src="https://img.shields.io/github/forks/AndreVallestero/sdl-vulkan-tutorial" alt="Forks" loading="lazy"></a></span>
-<p class="top-desc">An in depth cross platform tutorial for SDL2 using Vulkan with examples written in C++</p>
-</li>
-<li>
-<a class="top-title" href="https://github.com/AndreVallestero/lemmy-lite">Lemmy Lite</a>
-<span class="top-badges"><a href="https://github.com/AndreVallestero/lemmy-lite"><img src="https://img.shields.io/github/stars/AndreVallestero/lemmy-lite" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/lemmy-lite"><img src="https://img.shields.io/github/forks/AndreVallestero/lemmy-lite" alt="Forks" loading="lazy"></a></span>
-<p class="top-desc">A static, JSless, touch-friendly Lemmy frontend built for legacy web clients and maximum performance</p>
-</li>
-<li>
-<a class="top-title" href="https://github.com/AndreVallestero/minimal-efi">Minimal EFI</a>
-<span class="top-badges"><a href="https://github.com/AndreVallestero/minimal-efi"><img src="https://img.shields.io/github/stars/AndreVallestero/minimal-efi" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/minimal-efi"><img src="https://img.shields.io/github/forks/AndreVallestero/minimal-efi" alt="Forks" loading="lazy"></a></span>
-<p class="top-desc">A bare-bones minimal executable application for efi on the x64 platform</p>
-</li>
-<li>
-<a class="top-title" href="https://github.com/AndreVallestero/alpine-persistent-usb">Alpine Persistent USB</a>
-<span class="top-badges"><a href="https://github.com/AndreVallestero/alpine-persistent-usb"><img src="https://img.shields.io/github/stars/AndreVallestero/alpine-persistent-usb" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/alpine-persistent-usb"><img src="https://img.shields.io/github/forks/AndreVallestero/alpine-persistent-usb" alt="Forks" loading="lazy"></a></span>
-<p class="top-desc">Guide for making an Alpine Linux USB with persistence</p>
-</li>
-<li>
-<a class="top-title" href="https://github.com/AndreVallestero/gui-toolkit-benchmarks">GUI Toolkit Benchmarks</a>
-<span class="top-badges"><a href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"><img src="https://img.shields.io/github/stars/AndreVallestero/gui-toolkit-benchmarks" alt="Stars" loading="lazy"></a><a href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"><img src="https://img.shields.io/github/forks/AndreVallestero/gui-toolkit-benchmarks" alt="Forks" loading="lazy"></a></span>
-<p class="top-desc">Benchmarks for measuring the performance of GUI toolkits</p>
-</li>
-</ul>
-</section>
-</main>
-</body>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Andre Vallestero</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="app.js" defer></script>
+   </head>
+   <body>
+      <main>
+         <section class="card profile">
+            <img class="banner" src="assets/header.png" alt="Desktop banner" />
+            <img class="avatar" src="assets/pfp.jpg" alt="Andre Vallestero" />
+            <h1>Andre Vallestero</h1>
+            <p class="bio">
+               Software developer with deep interests in open-source, rust,
+               low-level programming, and linguistics
+            </p>
+            <p class="meta">
+               <svg
+                  viewBox="0 0 16 16"
+                  width="14"
+                  height="14"
+                  aria-hidden="true"
+               >
+                  <path
+                     fill="currentColor"
+                     d="M8 0a5.5 5.5 0 0 0-5.5 5.5c0 4.1 5.5 10.5 5.5 10.5s5.5-6.4 5.5-10.5A5.5 5.5 0 0 0 8 0Zm0 7.5A2 2 0 1 1 8 3.5a2 2 0 0 1 0 4Z"
+                  />
+               </svg>
+               Toronto, Canada
+               <a href="https://github.com/AndreVallestero"
+                  ><svg
+                     viewBox="0 0 16 16"
+                     width="14"
+                     height="14"
+                     aria-hidden="true"
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27 7.6 7.6 0 0 1 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"
+                     /></svg
+                  >AndreVallestero</a
+               >
+               <a href="https://www.linkedin.com/in/andre-vallestero"
+                  ><svg
+                     viewBox="0 0 24 24"
+                     width="14"
+                     height="14"
+                     aria-hidden="true"
+                  >
+                     <path
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"
+                     /></svg
+                  >andre-vallestero</a
+               >
+            </p>
+         </section>
+         <section class="card">
+            <h2>Web Projects (try them out!)</h2>
+            <div class="carousel">
+               <div class="viewport">
+                  <div class="grid" id="web-grid">
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/gui-toolkit-benchmarks/"
+                           ><img
+                              src="assets/gui-toolkit-benchmark.png"
+                              alt="GUI Toolkit Benchmarks screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"
+                              >GUI Toolkit Benchmarks</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/gui-toolkit-benchmarks"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/gui-toolkit-benchmarks"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/hatch-pattern-editor/editor"
+                           ><img
+                              src="assets/hatch-pattern-editor.png"
+                              alt="Hatch Pattern Editor screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/hatch-pattern-editor"
+                              >Hatch Pattern Editor</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/hatch-pattern-editor"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/hatch-pattern-editor"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/hatch-pattern-editor"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/hatch-pattern-editor"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a href="https://www.conlang0.org"
+                           ><img
+                              src="assets/conlang0.png"
+                              alt="Conlang0 screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a href="https://github.com/AndreVallestero/conlang0"
+                              >Conlang0</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a href="https://github.com/AndreVallestero/conlang0"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/conlang0"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/conlang0"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/conlang0"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/knucklebones-solver/"
+                           ><img
+                              src="assets/kuncklebones_solver.png"
+                              alt="Knucklebones Solver screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/knucklebones-solver"
+                              >Knucklebones Solver</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/knucklebones-solver"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/knucklebones-solver"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/knucklebones-solver"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/knucklebones-solver"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/lineageos-device-browser/"
+                           ><img
+                              src="assets/lineage-os-device-browser.png"
+                              alt="LineageOS Device Browser screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/lineageos-device-browser"
+                              >LineageOS Device Browser</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/lineageos-device-browser"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/lineageos-device-browser"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/lineageos-device-browser"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/lineageos-device-browser"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/3d-fruit-game/"
+                           ><img
+                              src="assets/3d-fruit-game.png"
+                              alt="3D Fruit Game screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/3d-fruit-game"
+                              >3D Fruit Game</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/3d-fruit-game"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/3d-fruit-game"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/3d-fruit-game"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/3d-fruit-game"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/shadow.bad.mn"
+                           ><img
+                              src="assets/shadow_badminton.png"
+                              alt="Shadow Badminton screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/shadow.bad.mn"
+                              >Shadow Badminton</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/shadow.bad.mn"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/shadow.bad.mn"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/shadow.bad.mn"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/shadow.bad.mn"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                     <article class="web-card">
+                        <a
+                           href="https://andrevallestero.github.io/ror2-eh-calc/"
+                           ><img
+                              src="assets/ror2_eh_calc.png"
+                              alt="RoR2 EH Calc screenshot"
+                              loading="lazy"
+                        /></a>
+                        <h3>
+                           <a
+                              href="https://github.com/AndreVallestero/ror2-eh-calc"
+                              >RoR2 EH Calc</a
+                           >
+                        </h3>
+                        <p class="badges">
+                           <a
+                              href="https://github.com/AndreVallestero/ror2-eh-calc"
+                              ><img
+                                 src="https://img.shields.io/github/stars/AndreVallestero/ror2-eh-calc"
+                                 alt="Stars"
+                                 loading="lazy" /></a
+                           ><a
+                              href="https://github.com/AndreVallestero/ror2-eh-calc"
+                              ><img
+                                 src="https://img.shields.io/github/forks/AndreVallestero/ror2-eh-calc"
+                                 alt="Forks"
+                                 loading="lazy"
+                           /></a>
+                        </p>
+                     </article>
+                  </div>
+               </div>
+               <button id="prev" hidden aria-label="Previous projects">
+                  <svg
+                     viewBox="0 0 16 16"
+                     width="16"
+                     height="16"
+                     aria-hidden="true"
+                  >
+                     <path
+                        d="M10.5 3.5 5 8l5.5 4.5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                     />
+                  </svg>
+               </button>
+               <button id="next" aria-label="Next projects">
+                  <svg
+                     viewBox="0 0 16 16"
+                     width="16"
+                     height="16"
+                     aria-hidden="true"
+                  >
+                     <path
+                        d="M5.5 3.5 11 8l-5.5 4.5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                     />
+                  </svg>
+               </button>
+            </div>
+         </section>
+         <section class="card">
+            <h2>Experience</h2>
+            <ul class="exp-list">
+               <li>
+                  <img
+                     class="logo"
+                     src="assets/robinhood.png"
+                     alt="Robinhood"
+                     width="40"
+                     height="40"
+                  />
+                  <h3>Software Engineer</h3>
+                  <p class="company">Robinhood &middot; Permanent Full-time</p>
+                  <p class="dates">Feb 2025 - Present &middot; 1 yr 8 mos</p>
+                  <p class="loc">Toronto, Ontario, Canada &middot; Hybrid</p>
+                  <p class="desc">
+                     Backend engineering for futures and event contracts
+                  </p>
+                  <p class="skills">
+                     &#x2662; Go (Programming Language), Python and +3 skills
+                  </p>
+               </li>
+               <li>
+                  <img
+                     class="logo"
+                     src="assets/amazon.svg"
+                     alt="Amazon"
+                     width="40"
+                     height="40"
+                  />
+                  <h3>Amazon</h3>
+                  <p class="company">
+                     Permanent Full-time &middot; 2 yrs 9 mos
+                  </p>
+                  <p class="loc">Toronto, Ontario, Canada &middot; Hybrid</p>
+                  <ul class="sub">
+                     <li>
+                        <h4>Software Development Engineer II</h4>
+                        <p class="dates">Mar 2024 - Sep 2024 &middot; 7 mos</p>
+                     </li>
+                     <li>
+                        <h4>Software Development Engineer</h4>
+                        <p class="dates">
+                           Jan 2022 - Feb 2024 &middot; 2 yrs 2 mos
+                        </p>
+                        <p class="desc">
+                           Content access and protection development
+                        </p>
+                        <p class="skills">
+                           &#x2662; Kotlin, Java and +3 skills
+                        </p>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <img
+                     class="logo"
+                     src="assets/koii.png"
+                     alt="Koii.network"
+                     width="40"
+                     height="40"
+                  />
+                  <h3>Koii.network</h3>
+                  <p class="company">Contract Full-time &middot; 10 mos</p>
+                  <p class="loc">Greater Toronto Area, Canada</p>
+                  <ul class="sub">
+                     <li>
+                        <h4>Lead Backend Developer</h4>
+                        <p class="dates">Aug 2021 - Jan 2022 &middot; 6 mos</p>
+                     </li>
+                     <li>
+                        <h4>Software Developer</h4>
+                        <p class="dates">Apr 2021 - Aug 2021 &middot; 5 mos</p>
+                        <p class="desc">
+                           Decentralized computing and application development
+                        </p>
+                        <p class="skills">
+                           &#x2662; JavaScript, Amazon Web Services (AWS) and +4
+                           skills
+                        </p>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <img
+                     class="logo"
+                     src="assets/tyltgo.png"
+                     alt="TyltGO"
+                     width="40"
+                     height="40"
+                  />
+                  <h3>Full-stack Developer</h3>
+                  <p class="company">TyltGO (YC S20) &middot; Internship</p>
+                  <p class="dates">Apr 2020 - Sep 2020 &middot; 6 mos</p>
+                  <p class="loc">Greater Toronto Area, Canada</p>
+                  <p class="desc">Full-stack web development</p>
+                  <p class="skills">
+                     &#x2662; TypeScript, Angular and +1 skill
+                  </p>
+               </li>
+               <li>
+                  <img
+                     class="logo"
+                     src="assets/think-logistics.png"
+                     alt="Think Logistics"
+                     width="40"
+                     height="40"
+                  />
+                  <h3>Software Developer</h3>
+                  <p class="company">Think Logistics &middot; Internship</p>
+                  <p class="dates">Apr 2018 - Sep 2018 &middot; 6 mos</p>
+                  <p class="loc">Vaughan, Ontario, Canada</p>
+                  <p class="desc">Desktop application development</p>
+                  <p class="skills">
+                     &#x2662; WinForms, .NET Framework and +1 skill
+                  </p>
+               </li>
+            </ul>
+         </section>
+         <section class="card">
+            <h2>Top Projects</h2>
+            <ul class="top-list">
+               <li>
+                  <a
+                     class="top-title"
+                     href="https://github.com/AndreVallestero/instant-pi"
+                     >Instant Pi</a
+                  >
+                  <span class="top-badges"
+                     ><a href="https://github.com/AndreVallestero/instant-pi"
+                        ><img
+                           src="https://img.shields.io/github/stars/AndreVallestero/instant-pi"
+                           alt="Stars"
+                           loading="lazy" /></a
+                     ><a href="https://github.com/AndreVallestero/instant-pi"
+                        ><img
+                           src="https://img.shields.io/github/forks/AndreVallestero/instant-pi"
+                           alt="Forks"
+                           loading="lazy" /></a
+                  ></span>
+                  <p class="top-desc">
+                     Achieving the fastest possible boot times with various
+                     Raspberry Pi devices
+                  </p>
+               </li>
+               <li>
+                  <a
+                     class="top-title"
+                     href="https://github.com/AndreVallestero/sdl-vulkan-tutorial"
+                     >SDL Vulkan Tutorial</a
+                  >
+                  <span class="top-badges"
+                     ><a
+                        href="https://github.com/AndreVallestero/sdl-vulkan-tutorial"
+                        ><img
+                           src="https://img.shields.io/github/stars/AndreVallestero/sdl-vulkan-tutorial"
+                           alt="Stars"
+                           loading="lazy" /></a
+                     ><a
+                        href="https://github.com/AndreVallestero/sdl-vulkan-tutorial"
+                        ><img
+                           src="https://img.shields.io/github/forks/AndreVallestero/sdl-vulkan-tutorial"
+                           alt="Forks"
+                           loading="lazy" /></a
+                  ></span>
+                  <p class="top-desc">
+                     An in depth cross platform tutorial for SDL2 using Vulkan
+                     with examples written in C++
+                  </p>
+               </li>
+               <li>
+                  <a
+                     class="top-title"
+                     href="https://github.com/AndreVallestero/lemmy-lite"
+                     >Lemmy Lite</a
+                  >
+                  <span class="top-badges"
+                     ><a href="https://github.com/AndreVallestero/lemmy-lite"
+                        ><img
+                           src="https://img.shields.io/github/stars/AndreVallestero/lemmy-lite"
+                           alt="Stars"
+                           loading="lazy" /></a
+                     ><a href="https://github.com/AndreVallestero/lemmy-lite"
+                        ><img
+                           src="https://img.shields.io/github/forks/AndreVallestero/lemmy-lite"
+                           alt="Forks"
+                           loading="lazy" /></a
+                  ></span>
+                  <p class="top-desc">
+                     A static, JSless, touch-friendly Lemmy frontend built for
+                     legacy web clients and maximum performance
+                  </p>
+               </li>
+               <li>
+                  <a
+                     class="top-title"
+                     href="https://github.com/AndreVallestero/minimal-efi"
+                     >Minimal EFI</a
+                  >
+                  <span class="top-badges"
+                     ><a href="https://github.com/AndreVallestero/minimal-efi"
+                        ><img
+                           src="https://img.shields.io/github/stars/AndreVallestero/minimal-efi"
+                           alt="Stars"
+                           loading="lazy" /></a
+                     ><a href="https://github.com/AndreVallestero/minimal-efi"
+                        ><img
+                           src="https://img.shields.io/github/forks/AndreVallestero/minimal-efi"
+                           alt="Forks"
+                           loading="lazy" /></a
+                  ></span>
+                  <p class="top-desc">
+                     A bare-bones minimal executable application for efi on the
+                     x64 platform
+                  </p>
+               </li>
+               <li>
+                  <a
+                     class="top-title"
+                     href="https://github.com/AndreVallestero/alpine-persistent-usb"
+                     >Alpine Persistent USB</a
+                  >
+                  <span class="top-badges"
+                     ><a
+                        href="https://github.com/AndreVallestero/alpine-persistent-usb"
+                        ><img
+                           src="https://img.shields.io/github/stars/AndreVallestero/alpine-persistent-usb"
+                           alt="Stars"
+                           loading="lazy" /></a
+                     ><a
+                        href="https://github.com/AndreVallestero/alpine-persistent-usb"
+                        ><img
+                           src="https://img.shields.io/github/forks/AndreVallestero/alpine-persistent-usb"
+                           alt="Forks"
+                           loading="lazy" /></a
+                  ></span>
+                  <p class="top-desc">
+                     Guide for making an Alpine Linux USB with persistence
+                  </p>
+               </li>
+               <li>
+                  <a
+                     class="top-title"
+                     href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"
+                     >GUI Toolkit Benchmarks</a
+                  >
+                  <span class="top-badges"
+                     ><a
+                        href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"
+                        ><img
+                           src="https://img.shields.io/github/stars/AndreVallestero/gui-toolkit-benchmarks"
+                           alt="Stars"
+                           loading="lazy" /></a
+                     ><a
+                        href="https://github.com/AndreVallestero/gui-toolkit-benchmarks"
+                        ><img
+                           src="https://img.shields.io/github/forks/AndreVallestero/gui-toolkit-benchmarks"
+                           alt="Forks"
+                           loading="lazy" /></a
+                  ></span>
+                  <p class="top-desc">
+                     Benchmarks for measuring the performance of GUI toolkits
+                  </p>
+               </li>
+            </ul>
+         </section>
+      </main>
+   </body>
 </html>
