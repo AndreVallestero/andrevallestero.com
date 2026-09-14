@@ -4,6 +4,7 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Andre Vallestero</title>
+      <link rel="icon" type="image/jpeg" href="assets/pfp.jpg" />
       <link rel="stylesheet" href="style.css" />
       <script src="app.js" defer></script>
    </head>
@@ -18,18 +19,20 @@
                low-level programming, and linguistics
             </p>
             <p class="meta">
-               <svg
-                  viewBox="0 0 16 16"
-                  width="14"
-                  height="14"
-                  aria-hidden="true"
+               <span class="loc"
+                  ><svg
+                     viewBox="0 0 16 16"
+                     width="14"
+                     height="14"
+                     aria-hidden="true"
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M8 0a5.5 5.5 0 0 0-5.5 5.5c0 4.1 5.5 10.5 5.5 10.5s5.5-6.4 5.5-10.5A5.5 5.5 0 0 0 8 0Zm0 7.5A2 2 0 1 1 8 3.5a2 2 0 0 1 0 4Z"
+                     />
+                  </svg
+                  >Toronto, Canada</span
                >
-                  <path
-                     fill="currentColor"
-                     d="M8 0a5.5 5.5 0 0 0-5.5 5.5c0 4.1 5.5 10.5 5.5 10.5s5.5-6.4 5.5-10.5A5.5 5.5 0 0 0 8 0Zm0 7.5A2 2 0 1 1 8 3.5a2 2 0 0 1 0 4Z"
-                  />
-               </svg>
-               Toronto, Canada
                <a href="https://github.com/AndreVallestero"
                   ><svg
                      viewBox="0 0 16 16"
@@ -56,6 +59,21 @@
                         d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"
                      /></svg
                   >andre-vallestero</a
+               >
+               <a
+                  href="https://drive.google.com/file/d/1BYnYYAXcMRXKtRiZBa_VaMpralV-Q2uK/view?usp=sharing"
+                  ><svg
+                     viewBox="0 0 16 16"
+                     width="14"
+                     height="14"
+                     aria-hidden="true"
+                  >
+                     <path
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        d="M9 1H3v14h10V5L9 1ZM4.5 7h7v1.4h-7V7Zm0 2.6h7v1.4h-7V9.6Zm0 2.6h7v1.4h-7v-1.4Z"
+                     /></svg
+                  >Résumé</a
                >
             </p>
          </section>
@@ -124,36 +142,9 @@
                            /></a>
                         </p>
                      </article>
-                     <article class="web-card">
-                        <a href="https://www.conlang0.org"
-                           ><img
-                              src="assets/conlang0.png"
-                              alt="Conlang0 screenshot"
-                              loading="lazy"
-                        /></a>
-                        <h3>
-                           <a href="https://github.com/AndreVallestero/conlang0"
-                              >Conlang0</a
-                           >
-                        </h3>
-                        <p class="badges">
-                           <a href="https://github.com/AndreVallestero/conlang0"
-                              ><img
-                                 src="https://img.shields.io/github/stars/AndreVallestero/conlang0"
-                                 alt="Stars"
-                                 loading="lazy" /></a
-                           ><a
-                              href="https://github.com/AndreVallestero/conlang0"
-                              ><img
-                                 src="https://img.shields.io/github/forks/AndreVallestero/conlang0"
-                                 alt="Forks"
-                                 loading="lazy"
-                           /></a>
-                        </p>
-                     </article>
-                     <article class="web-card">
-                        <a
-                           href="https://andrevallestero.github.io/knucklebones-solver/"
+                      <article class="web-card">
+                         <a
+                            href="https://andrevallestero.github.io/knucklebones-solver/"
                            ><img
                               src="assets/kuncklebones_solver.png"
                               alt="Knucklebones Solver screenshot"
@@ -300,10 +291,37 @@
                                  loading="lazy"
                            /></a>
                         </p>
-                     </article>
-                  </div>
-               </div>
-               <button id="prev" hidden aria-label="Previous projects">
+                      </article>
+                      <article class="web-card">
+                         <a href="https://www.conlang0.org"
+                            ><img
+                               src="assets/conlang0.png"
+                               alt="Conlang0 screenshot"
+                               loading="lazy"
+                         /></a>
+                         <h3>
+                            <a href="https://github.com/AndreVallestero/conlang0"
+                               >Conlang0</a
+                            >
+                         </h3>
+                         <p class="badges">
+                            <a href="https://github.com/AndreVallestero/conlang0"
+                               ><img
+                                  src="https://img.shields.io/github/stars/AndreVallestero/conlang0"
+                                  alt="Stars"
+                                  loading="lazy" /></a
+                            ><a
+                               href="https://github.com/AndreVallestero/conlang0"
+                               ><img
+                                  src="https://img.shields.io/github/forks/AndreVallestero/conlang0"
+                                  alt="Forks"
+                                  loading="lazy"
+                            /></a>
+                         </p>
+                      </article>
+                   </div>
+                </div>
+                <button id="prev" hidden aria-label="Previous projects">
                   <svg
                      viewBox="0 0 16 16"
                      width="16"
